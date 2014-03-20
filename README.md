@@ -14,6 +14,9 @@ Directions: choose an animal and push the big animal button as many times as you
 
 ENJOY!
 
+Play Store Link:
+https://play.google.com/store/apps/details?id=com.shaq.pushcounter
+
 License
 ==========
 
