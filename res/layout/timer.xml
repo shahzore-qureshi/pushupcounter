@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<ImageButton android:layout_height="wrap_content" android:layout_centerInParent="true" android:src="@drawable/chickenbutton" android:layout_width="wrap_content" android:id="@+id/buttonTimer" android:layout_below="@+id/totalPushups" android:hapticFeedbackEnabled="true"></ImageButton>
+<TextView android:layout_height="wrap_content" android:id="@+id/timeLeftLabel" android:layout_width="fill_parent" android:text="Time Left:" android:gravity="center_vertical|center_horizontal"></TextView>
+<TextView android:textColor="#ff0000" android:textSize="60sp" android:layout_height="wrap_content" android:id="@+id/timeLeft" android:text="15" android:layout_width="fill_parent" android:gravity="center_vertical|center_horizontal" android:layout_alignParentLeft="true"></TextView>
+<TextView android:layout_height="wrap_content" android:id="@+id/totalPushupsLabel" android:text="Total Pushups:" android:layout_below="@+id/timeLeft" android:layout_width="wrap_content" android:layout_alignLeft="@+id/timeLeft" android:layout_alignRight="@+id/timeLeft" android:gravity="center_vertical|center_horizontal"></TextView>
+<TextView android:textColor="#FFFFFF" android:textSize="60sp" android:layout_height="wrap_content" android:id="@+id/totalPushups" android:text="0" android:layout_below="@+id/totalPushupsLabel" android:layout_width="wrap_content" android:layout_alignLeft="@+id/totalPushupsLabel" android:layout_alignRight="@+id/totalPushupsLabel" android:gravity="center_vertical|center_horizontal"></TextView>
+
+
+</RelativeLayout>

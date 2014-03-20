@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+    
+    <com.google.ads.AdView
+		android:id="@+id/adView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		ads:adUnitId="a14dcd6b3e8b0ff"
+		ads:adSize="BANNER"
+		ads:loadAdOnCreate="true" />       
+	<Button android:layout_height="wrap_content" 
+			android:layout_above="@+id/startTimer"
+			android:layout_alignLeft="@+id/startTimer" 
+			android:layout_alignRight="@+id/startTimer" 
+			android:layout_width="wrap_content" 
+			android:id="@+id/startbutton" android:text="Start Pushups"/>
+	<Button android:id="@+id/startTimer"
+			android:layout_centerInParent="true" 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:text="Start Timer" />
+	<Button android:layout_below="@+id/startTimer" 
+			android:id="@+id/preferences" 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:layout_alignLeft="@+id/startTimer" 
+			android:layout_alignRight="@+id/startTimer" 
+			android:text="Choose Animal" />
+	<Button android:id="@+id/scores"
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:layout_alignLeft="@+id/preferences" 
+			android:layout_alignRight="@+id/preferences"
+			android:layout_below="@+id/preferences"
+			android:text="View Scores" />
+</RelativeLayout>

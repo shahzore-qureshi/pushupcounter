@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory
+                android:title="Animal Settings">
+                <ListPreference
+                        android:title="Animal Preferences"
+                        android:summary="Choose your animal here."
+                        android:key="animals"
+                        android:defaultValue="digiGreen"
+                        android:entries="@array/animalArray"
+                        android:entryValues="@array/animalValues" />
+        </PreferenceCategory>
+</PreferenceScreen>
